@@ -31,7 +31,7 @@ static struct fuse_operations operations = {
 
 	.open = NULL, //sfs_open,							
 	.opendir = NULL, //sfs_opendir,
-	.access = sfs_access
+	.access = NULL //sfs_access
 };
 /******************************************************************************
 * SECTION: Function Implementation
